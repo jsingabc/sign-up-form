@@ -1,0 +1,92 @@
+
+body {
+    background-color: black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.main {
+    width: 101%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.left {
+    height: 102%;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#odinLogo {
+    content: url(odin-lined.png); 
+    width: 8rem; 
+    height: 8rem;
+    
+}
+
+#odinBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 60%;
+    margin-bottom: 180%;
+    background: rgba(0, 0, 1, 0.381);
+}
+
+
+
+.right {
+    border: 1px solid black;
+    width: 80%
+}
+
+#topRight {
+    height: 27%;
+    padding-left: 3%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    background-color: #F5F5F5;
+    border-bottom: .5px solid black;
+    display: flex;
+    align-items: flex-end;
+}
+
+#middleRight {
+    height: 33%;
+    padding-left: 3%;
+    padding-top: 9%;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    column-gap: 1em;
+}
+
+#bottomRight {
+    padding-top: 9%;
+    padding-left: 3%;
+    height: 27%;
+    background-color: #F5F5F5;
+    box-shadow: rgb(0 0 0 / 50%) 0px -6px 6px -6px;
+}
+
+#createAcct {
+    background-color: green;
+    color: white;
+    font-size: 2vh;
+    border-radius: 25px;
+    height: 2rem;
+    width: 11rem;
+    margin-bottom: 2%;
+}
